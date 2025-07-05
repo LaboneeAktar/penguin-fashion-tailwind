@@ -16,6 +16,8 @@
               penguin: "#FFFBF0",
               jacketprice: "#FABE4C",
               maincolor: "#E5E5E5",
+              titlecolor: "#363958",
+              textcolor: "#3C3C3C",
             },
           },
         },
@@ -30,7 +32,7 @@
           <img class="w-1/4 ml-24" src="images/logo.png" alt="" />
         </div>
         <div>
-          <ul>
+          <ul class="flex justify-around gap-7 text-textcolor">
             <li>Home</li>
             <li>Products</li>
             <li>About Us</li>
@@ -39,14 +41,16 @@
         </div>
       </nav>
       <section class="container mx-auto sm:flex items-center justify-around">
-        <div class="space-y-4">
+        <div class="space-y-4 w-1/2 pl-4">
           <h1 class="text-2xl sm:text-4xl uppercase font-bold">
             <span class="text-yellow-500">Be the penguins</span><br />
-            <span>of winter</span>
+            <span class="text-titlecolor">of winter</span>
           </h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+          <p class="text-textcolor text-left">
+            Buy special and Authentic winter collection in our store. Be happy
+            with Shopping... Buy special and Authentic winter collection in our
+            store. Be happy with Shopping...Buy special and Authentic winter
+            collection in our store. Be happy with Shopping...
           </p>
           <button
             class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold"
@@ -73,13 +77,15 @@
         </div>
       </section>
     </header>
-    <main class="container mx-auto bg-maincolor">
+    <main class="container mx-auto">
       <!-- Woman Jacket -->
-      <section class="pt-20 pb-24">
-        <h2 class="text-5xl font-bold">Woman Jacket</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+      <section class="pt-20 pb-24 mt-24">
+        <h2 class="text-4xl font-bold text-titlecolor ml-12 mb-4">
+          Woman Jacket
+        </h2>
+        <div class="mx-12 grid md:grid-cols-2 lg:grid-cols-3 gap-7">
           <!-- jacket-1  -->
-          <div class="p-4 shadow-lg rounded-xl">
+          <div class="p-4 shadow-xl rounded-xl">
             <div class="p-5 bg-gray-300 rounded-xl">
               <img src="images/jacket-1.png" alt="" />
             </div>
